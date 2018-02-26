@@ -19,6 +19,12 @@
     to   { opacity: 1; }
 }
 
+.fakeshelf {
+    border-bottom:5px solid #ccc;
+    background:#eee;
+    padding:2rem 2rem 1rem;
+}
+
 .navbar-nav {
     border-right: none;
     border-bottom: 1px solid rgba(255,255,255,0.125);
