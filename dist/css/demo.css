@@ -33,13 +33,24 @@
     border-bottom:none;
     border-right: none;
 }
+.navbar-nav .nav-link.nav-link-home {
+    color:#2196f3!important;
+    transition: all 0.25s;
+}
+.navbar-nav .nav-link.nav-link-home:hover {
+    transition: all 0.25s;
+    transform: scale(1.5);
+}
 .navbar-nav .nav-link {
     font-size:0.75rem!important;
     height: 2rem;
-    text-decoration: underline;
+    text-decoration: none;
     padding: .625rem 0.5rem;
     color:white;
     opacity:1;
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
 }
 .navbar-nav .nav-link.active {
     text-decoration: none;
