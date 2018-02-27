@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0b00d9-e0b5-4d50-85e5-65cf64a80059" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/css/demo.css" afterPath="$PROJECT_DIR$/dist/css/demo.css" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/ajax.html" afterPath="$PROJECT_DIR$/src/pages/javascript/ajax.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/ajaxJSON.html" afterPath="$PROJECT_DIR$/src/pages/javascript/ajaxJSON.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/books.html" afterPath="$PROJECT_DIR$/src/pages/javascript/books.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/gym.html" afterPath="$PROJECT_DIR$/src/pages/javascript/gym.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/maths.html" afterPath="$PROJECT_DIR$/src/pages/javascript/maths.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/react/index1.html" afterPath="$PROJECT_DIR$/src/pages/react/index1.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/react/index2.html" afterPath="$PROJECT_DIR$/src/pages/react/index2.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/react/index3.html" afterPath="$PROJECT_DIR$/src/pages/react/index3.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/react/index4.html" afterPath="$PROJECT_DIR$/src/pages/react/index4.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/react/index5.html" afterPath="$PROJECT_DIR$/src/pages/react/index5.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/react/index6.html" afterPath="$PROJECT_DIR$/src/pages/react/index6.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/react/index7.html" afterPath="$PROJECT_DIR$/src/pages/react/index7.html" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index7.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index7.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/react/index7.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
               <caret line="57" column="57" lean-forward="false" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -112,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/pages/react/index2.html" />
         <option value="$PROJECT_DIR$/src/pages/react/index1.html" />
         <option value="$PROJECT_DIR$/src/pages/react/index7.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -206,12 +204,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519731810498</updated>
-      <workItem from="1519731811918" duration="63000" />
+      <workItem from="1519731811918" duration="881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63000" />
+    <option name="totallyTimeSpent" value="881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -299,6 +297,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="57" column="57" lean-forward="false" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
