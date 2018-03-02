@@ -18,7 +18,7 @@ class CV extends React.Component {
     render() {
         return (
             <div>
-                
+
                 <div className="row justify-content-md-center my-5">
                     <Intro />
                 </div>
@@ -85,7 +85,7 @@ class Intro extends React.Component {
                 </ul>
             </div>
         );
-    }
+    };
 }
 
 class Summary extends React.Component {
@@ -126,6 +126,7 @@ class KeySkills extends React.Component {
     }
 
     _getSkills() {
+
         // Fake object / array of books
         const skillsList = [
             {id: 1, skills: "HTML, HTML5, XHTML, Hypertext Markup Language, Semantic, Accessibility, W3C", years: "10"},
@@ -146,6 +147,7 @@ class KeySkills extends React.Component {
                 <Skill skills={skill.skills}  years={skill.years} key={skill.id} />
             );
         });
+
     }
 }
 
@@ -200,7 +202,7 @@ class Skill extends React.Component {
 class WorkExp extends React.Component {
     render() {
         return (
-            <div className="col-6 col-sm-6 col-md-12">
+            <div className="col-sm-12 ">
                 <div className="card mb-5">
                     <div className="card-header bg-light">
                         <p className=""><strong>{this.props.position}</strong> | <span className="">{this.props.company}</span></p>
