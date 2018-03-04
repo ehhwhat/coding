@@ -70,7 +70,10 @@
                                 <a class="nav-link" href="ajax.html">Ajax</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="ajaxJSON.html">AjaxJSON</a>
+                                <a class="nav-link" href="ajaxJSON.html">AjaxJSON</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="ajaxJSON_promise.html">Ajax Promise</a>
                             </li>
                         </ul>
                     </div>
@@ -281,60 +284,12 @@
 
         // Start by emptying the existing content so pulled data isn't duplicated
         // Hide all demo containers and then show this one.
-        // $('#demo3 ul').empty();
-        // $(this).attr('disabled','disabled').addClass('disabled');
-        // $('.demo-container').css('display','none');
-        // $('#demoThreeContainer').css('display','block');
-        //
-        // $.getJSON("http://ehhwhat.co.uk/testing/json/goodreadsJSON.json", function (data) {
-        //     let dataLength = data.length;
-        //
-        //     $.map(data, function(item, i){
-        //         if(i >= 1) {
-        //             setTimeout(function() {
-        //                 $('#demoThreeContainer .chip-icon').html(i);
-        //                 var itemWrapper = $('<li class="list-inline-item fade-in">' + data[i].FIELD2 + '</li>');
-        //                 $('#demo3 ul').append(itemWrapper);
-        //                 return itemWrapper;
-        //             }, 300 * i);
-        //         }
-        //     });
-        //
-        //     setTimeout(function() {
-        //         $('#progress3 .progress-bar').removeClass('bg-danger').addClass('bg-warning');
-        //         setTimeout(function() {
-        //             $('#progress3 .progress-bar').removeClass('bg-warning').addClass('bg-success');
-        //             setTimeout(function() {
-        //                 $('#progress3').fadeOut('slow');
-        //             }, 2000);
-        //         }, (dataLength * 150));
-        //     }, (dataLength * 150));
-        //
-        // });
-
-        // $.ajax({
-        //     type: 'GET',
-        //     url: 'http://ehhwhat.co.uk/testing/json/goodreadsJSON.json',
-        //     async: false,
-        //     contentType: "application/json",
-        //     dataType: 'json',
-        //     success: function(data)
-        //     {
-        //         console.log('Success');
-        //         console.log(data);
-        //     },
-        //     error: function(e)
-        //     {
-        //         alert(e.message);
-        //     }
-        // });
-
         $('#demo3 ul').empty();
         $('.demo-container').css('display','none');
         $(this).attr('disabled','disabled').addClass('disabled');
 
-        //var allBooksPromise = Books.information();
-
+        // When the successful promise is returned do this (.then)
+        // If the promise fails log an error to console
         $.when(
             Books.information()
         ).then(function(data){
@@ -366,30 +321,6 @@
             console.log('.fail | Error | Demo 3');
         });
 
-        // allBooksPromise.done(function(data){
-        //     console.log('allBooksPromise Delivered');
-        //     let dataLength = data.length;
-        //     $.map(data, function(item, i){
-        //         if(i >= 1) {
-        //             setTimeout(function() {
-        //                 $('#demoThreeContainer .chip-icon').html(i);
-        //                 var itemWrapper = $('<li class="list-inline-item fade-in">' + data[i].FIELD2 + '</li>');
-        //                 $('#demo3 ul').append(itemWrapper);
-        //                 return itemWrapper;
-        //             }, 300 * i);
-        //         }
-        //     });
-        //     setTimeout(function() {
-        //         $('#progress3 .progress-bar').removeClass('bg-danger').addClass('bg-warning');
-        //         setTimeout(function() {
-        //             $('#progress3 .progress-bar').removeClass('bg-warning').addClass('bg-success');
-        //             setTimeout(function() {
-        //                 $('#progress3').fadeOut('slow');
-        //             }, 2000);
-        //         }, (dataLength * 150));
-        //     }, (dataLength * 150));
-        // });
-
     });
 
     // Promise
@@ -400,7 +331,7 @@
             var promise = $.ajax({
                 type: 'GET',
                 url: 'http://ehhwhat.co.uk/testing/json/goodreadsJSON.json',
-                async: false,
+                async: true,
                 contentType: "application/json",
                 dataType: 'json',
             });
