@@ -89,11 +89,15 @@
             <div class="jumbotron my-4">
                 <h1 class="display-4">Ajax Promise | <small class="text-muted">Getting data from JSON and promising this to other functions.</small></h1>
                 <p class="">
-                    ???</p>
+                    Same demo as <a href="ajaxJSON.html">previous page</a> but instead of pulling same set of data for each demo (so doing same call 3 times) i will call the data once and pass a <code>promise</code> back to an <code>object</code> which will then be used by each of the demo's instead.
+                    Each will make use of their own markup once the <code>promise</code> is successful.</p>
                 <hr class="my-4">
                 <p><strong>Things to note:</strong></p>
                 <ul class="">
-                    <li>???</li>
+                    <li>Use of a <code>promise</code></li>
+                    <li>Use of <code>$.when</code> and <code>.then</code> for success handling</li>
+                    <li>Use of <code>.fail</code> for error handling</li>
+                    <li>Use of <code>const</code> (for the data json object as this data is constant) and <code>let</code> rather than <code>var</code></li>
                 </ul>
                 <hr class="my-4">
                 <div class="btn-group demo-buttons" role="group" aria-label="Basic example">
@@ -325,7 +329,7 @@
 
     // Promise
     // Passed to variable for reuse
-    var Books = {
+    const Books = {
         information: function getData() {
             console.log('getData');
             var promise = $.ajax({

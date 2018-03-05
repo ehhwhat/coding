@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0b00d9-e0b5-4d50-85e5-65cf64a80059" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/ajax.html" afterPath="$PROJECT_DIR$/src/pages/javascript/ajax.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/ajaxJSON.html" afterPath="$PROJECT_DIR$/src/pages/javascript/ajaxJSON.html" />
       <change beforePath="$PROJECT_DIR$/src/pages/javascript/ajaxJSON_promise.html" afterPath="$PROJECT_DIR$/src/pages/javascript/ajaxJSON_promise.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/basic.html" afterPath="$PROJECT_DIR$/src/pages/javascript/basic.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/books.html" afterPath="$PROJECT_DIR$/src/pages/javascript/books.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/gym.html" afterPath="$PROJECT_DIR$/src/pages/javascript/gym.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/maths.html" afterPath="$PROJECT_DIR$/src/pages/javascript/maths.html" />
-      <change beforePath="$PROJECT_DIR$/src/pages/javascript/objects.html" afterPath="$PROJECT_DIR$/src/pages/javascript/objects.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basic.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basic.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/javascript/basic.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -33,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxJSON_promise.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajaxJSON_promise.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/javascript/ajaxJSON_promise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="75" column="81" lean-forward="false" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
+            <state relative-caret-position="677">
+              <caret line="99" column="151" lean-forward="false" selection-start-line="99" selection-start-column="151" selection-end-line="99" selection-end-column="151" />
               <folding />
             </state>
           </provider>
@@ -140,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/pages/javascript/books.html" />
         <option value="$PROJECT_DIR$/src/pages/javascript/gym.html" />
         <option value="$PROJECT_DIR$/src/pages/javascript/maths.html" />
-        <option value="$PROJECT_DIR$/src/pages/javascript/ajaxJSON_promise.html" />
         <option value="$PROJECT_DIR$/src/pages/javascript/basic.html" />
+        <option value="$PROJECT_DIR$/src/pages/javascript/ajaxJSON_promise.html" />
       </list>
     </option>
   </component>
@@ -259,12 +252,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519731810498</updated>
       <workItem from="1519731811918" duration="15510000" />
-      <workItem from="1519827769762" duration="25821000" />
+      <workItem from="1519827769762" duration="26868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41331000" />
+    <option name="totallyTimeSpent" value="42378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -693,14 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/javascript/ajaxJSON_promise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="75" column="81" lean-forward="false" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/javascript/ajax_data.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -713,6 +698,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="75" column="74" lean-forward="false" selection-start-line="75" selection-start-column="74" selection-end-line="75" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/javascript/ajaxJSON_promise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="99" column="151" lean-forward="false" selection-start-line="99" selection-start-column="151" selection-end-line="99" selection-end-column="151" />
           <folding />
         </state>
       </provider>
